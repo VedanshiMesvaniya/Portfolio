@@ -1,0 +1,4 @@
+# Copy this file to .dev.vars (same folder) for local testing with `npm run dev`.
+# .dev.vars is git-ignored. Never commit a real key.
+GROQ_API_KEY=gsk_paste_your_key_here
+ALLOWED_ORIGINS=http://localhost:8000,http://localhost:8765,http://127.0.0.1:8000

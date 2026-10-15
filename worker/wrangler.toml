@@ -1,0 +1,11 @@
+name = "portfolio-ask"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+# Sites allowed to call this worker (comma separated). Add your custom domain here if you use one.
+ALLOWED_ORIGINS = "https://vedanshimesvaniya.github.io"
+# Groq model id. Change here if you ever want a different one.
+GROQ_MODEL = "openai/gpt-oss-20b"
+
+# The Groq key is NOT stored here. Add it once with:   npx wrangler secret put GROQ_API_KEY

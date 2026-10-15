@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-ask-worker",
+  "private": true,
+  "type": "module",
+  "description": "Answers questions about Vedanshi using Groq (gpt-oss-20b) and the documents in /knowledge",
+  "scripts": {
+    "build:knowledge": "node scripts/build-knowledge.mjs",
+    "dev": "npm run build:knowledge && wrangler dev",
+    "deploy": "npm run build:knowledge && wrangler deploy",
+    "test": "npm run build:knowledge && node test/worker.test.mjs"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "^5.4.0",
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,59 @@
+{
+ "generatedAt": "2026-10-14T08:51:47.015Z",
+ "chunks": [
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 1,
+   "text": "Vedanshi Mesvaniya\nAI Engineer\nmesvaniya.vedanshi@gmail.com +91 8799499547\nhttps://www.linkedin.com/in/vedanshi-mesvaniya-/ https://github.com/VedanshiMesvaniya\nCareer Objective\nJunior AI Engineer with hands-on experience in Python, LLMs and Retrieval-Augmented Generation (RAG)\nBuilt AI applications that answer questions from documents and databases, including a company assistant and\na personal finance app with multi-LLM fallback\nSkilled in building backend APIs with FastAPI and connecting them to AI features\nData analysis background with SQL, Power BI and Excel\nLooking for an AI Engineer role to build reliable, real-world AI solutions\nSkills\nProgramming & Tools: Python, SQL, Excel, FastAPI, REST APIs, Git\nData Analysis: Pandas, NumPy, Data Cleaning, Exploratory Data Analysis (EDA)\nVisualization: Power BI, Matplotlib, Excel Charts"
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 1,
+   "text": "Data Analysis: Pandas, NumPy, Data Cleaning, Exploratory Data Analysis (EDA)\nVisualization: Power BI, Matplotlib, Excel Charts\nAI & Machine Learning: LLMs, RAG, Text-to-SQL, Prompt Engineering, Semantic Search, FAISS, Qdrant,\nSentence Transformers, LightGBM, Multi-LLM API Integration\nDatabases & Backend: PostgreSQL, SQLite, SQL dialects, database connectors\nFrontend (basic): React\nConcepts: Statistics, Hypothesis Testing, Data Interpretation\nSoft Skills: Problem Solving, Analytical Thinking, Communication\nProjects\nSales Performance Dashboard\nTools: Excel, SQL, Power BI\nCleaned and analysed 10,000+ retail sales records using Excel and Python to ensure data accuracy and\nconsistency.\nPerformed SQL-based analysis to calculate key business metrics including total revenue, average order value,\nand region-wise performance."
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 1,
+   "text": "Performed SQL-based analysis to calculate key business metrics including total revenue, average order value,\nand region-wise performance.\nIdentified top-performing products and high-revenue regions to support business insights.\nBuilt interactive Power BI dashboards to visualize monthly trends, regional sales, and product performance.\nHighlighted 12–15% revenue growth during peak months, enabling better sales planning and decision-making."
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 2,
+   "text": "AI Chatbot for VuMaxpro\nTechnologies: Python, LightGBM, FAISS, Sentence Transformers, Pandas, NumPy, Scikit-learn, RAG,\nPDFPlumber\nContributed to the development of an AI-powered chatbot for geological and drilling information retrieval.\nWorked on RAG pipelines including document ingestion, semantic search, vector indexing, and knowledge\nretrieval from technical documents.\nDeveloped PDF and table extraction workflows for geological and drilling reports.\nImplemented semantic retrieval using FAISS and Sentence Transformers embeddings.\nBuilt LightGBM models for ROP prediction and drilling parameter optimization.\nStash: AI Personal Finance App\nTechnologies: Python, FastAPI, React, SQLAlchemy, PostgreSQL, SQLite, LLM APIs\nBuilt a full-stack AI finance app that converts natural-language inputs like “spent 50 on groceries yesterday”"
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 2,
+   "text": "Technologies: Python, FastAPI, React, SQLAlchemy, PostgreSQL, SQLite, LLM APIs\nBuilt a full-stack AI finance app that converts natural-language inputs like “spent 50 on groceries yesterday”\ninto structured income and expense entries.\nDeveloped a FastAPI backend with password hashing, signed session cookies, email verification, and strict\nper-user data isolation.\nCreated a 6,000+ item glossary covering English, Hinglish, and Hindi merchants/items, with a learning system\nthat remembers user-defined categories.\nImplemented multi-LLM fallback across 3 providers, retry queues, and offline support to prevent transaction\nloss during API or network failures.\nBuilt monthly reports, spending trends, budgets, recurring transactions, and CSV/Excel/PDF export\nfunctionality; deployed the application with PostgreSQL.\nAntarkosh"
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 2,
+   "text": "functionality; deployed the application with PostgreSQL.\nAntarkosh\nTechnologies: Python, FastAPI, React, Qdrant, sqlglot, LLMs, RAG, SQL\nDeveloped a hybrid AI assistant that answers questions across enterprise documents and relational\ndatabases through a unified natural-language interface.\nBuilt a multi-stage document ingestion pipeline for PDF and office files, including OCR, layout-aware and\ntable extraction, embeddings, hybrid dense/sparse retrieval, and reranking.\nDeveloped a Text-to-SQL pipeline with semantic intent extraction, schema retrieval, business glossary and\njoin context to generate database-aware read queries.\nImplemented AST-based SQL validation and read-only execution safeguards, with query repair and result\nformatting to handle invalid or unsafe generated queries."
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 2,
+   "text": "Implemented AST-based SQL validation and read-only execution safeguards, with query repair and result\nformatting to handle invalid or unsafe generated queries.\nAdded database connector and dialect handling for SQLite, MySQL, PostgreSQL, Microsoft SQL Server, and\nOracle; SQLAlchemy-based unified connectivity is planned, not yet implemented."
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 3,
+   "text": "Experience\nEtech Energy Consultancy Pvt. Ltd AI/ML Intern 01/2026 - 05/2026\nWorked on building an AI chatbot using Python and LLMs.\nUsed RAG to fetch answers from a custom knowledge base.\nIntegrated a prediction API to handle user queries in natural language.\nAssisted in creating a basic intent detection system for user queries.\nImproved chatbot responses by refining prompts and retrieval process.\nParam Software AI & Python Automation 06/2025 - To Present\nDeveloping Antarkosh, an AI assistant that combines enterprise document retrieval with natural-language\naccess to relational business data.\nBuilding and improving the RAG pipeline with multiformat ingestion, OCR and table extraction, Qdrant hybrid\nsearch, embeddings, and reranking.\nDeveloping Text-to-SQL workflows for schema-aware query generation, dialect-specific SQL handling, and"
+  },
+  {
+   "file": "Vedanshi_Mesvaniya_Resume.pdf",
+   "title": "Vedanshi Mesvaniya Resume",
+   "page": 3,
+   "text": "search, embeddings, and reranking.\nDeveloping Text-to-SQL workflows for schema-aware query generation, dialect-specific SQL handling, and\nAST-based read-only query validation.\nDebugging and refining SQL + RAG retrieval for large schemas, ambiguous business terminology, query\nrepair, and more grounded responses.\nExtending database connectivity across SQLite, MySQL, PostgreSQL, SQL Server, and Oracle; evaluating\nSQLAlchemy as a future unified connectivity layer.\nEducation\nMaster of Computer Applications (MCA)\nAtmiya University, Rajkot | Graduated: 2026 | First Distinction | Aggregate: 91.72%\nBachelor of Computer Applications (BCA)\nSaurashtra University, Rajkot | Graduated: 2024 | First Distinction | Aggregate: 72.63%\nCertification\nMicrosoft Excel Associate (2025)\nDocker 101 – Colaculam (2024)"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+# dependencies and local tooling
+node_modules/
+.wrangler/
+
+# secrets: never commit these
+.dev.vars
+.env
+.env.*
+
+# documents that only the worker should see (see knowledge/_README.md)
+knowledge/private/*
+!knowledge/private/.gitkeep
+worker/src/knowledge.private.generated.js
+
+.DS_Store

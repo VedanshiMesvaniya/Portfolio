@@ -1,0 +1,13 @@
+{
+  "name": "Vedanshi Mesvaniya | AI Engineer",
+  "short_name": "Vedanshi",
+  "description": "Portfolio of Vedanshi Mesvaniya, AI Engineer.",
+  "start_url": ".",
+  "display": "browser",
+  "background_color": "#F8FAFC",
+  "theme_color": "#8B5CF6",
+  "icons": [
+    { "src": "assets/img/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

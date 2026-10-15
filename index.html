@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vedanshi Mesvaniya | AI Engineer</title>
+  <meta name="description" content="Vedanshi Mesvaniya, AI Engineer in Rajkot, India. Experience, projects, skills and CV.">
+  <meta name="author" content="Vedanshi Mesvaniya">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#F8FAFC">
+
+  <!-- Social preview. If you host on a custom domain, replace the base URL below. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vedanshi Mesvaniya | AI Engineer">
+  <meta property="og:description" content="AI Engineer. Experience, projects, skills and CV.">
+  <meta property="og:image" content="https://vedanshimesvaniya.github.io/Portfolio/assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <script>
+    /* Set theme before first paint so there is no flash. */
+    (function () {
+      var root = document.documentElement;
+      root.classList.add('js');
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (e) {}
+      root.setAttribute('data-theme', saved || 'light');
+    })();
+  </script>
+
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/ask.js" defer></script>
+  <script src="assets/js/neurons.js" defer></script>
+  <script src="assets/js/projects.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vedanshi Mesvaniya",
+    "jobTitle": "AI Engineer",
+    "address": { "@type": "PostalAddress", "addressLocality": "Rajkot", "addressRegion": "Gujarat", "addressCountry": "IN" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Atmiya University" },
+      { "@type": "CollegeOrUniversity", "name": "Saurashtra University" }
+    ],
+    "sameAs": [
+      "https://github.com/VedanshiMesvaniya",
+      "https://www.linkedin.com/in/vedanshi-mesvaniya-/"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="mesh" aria-hidden="true"><canvas id="neurons"></canvas></div>
+  <!-- Icon sprite: one place for every icon used on the page -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7.5l8.5 6 8.5-6"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></g></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2.5"/><path d="M5 15V6.5A2.5 2.5 0 0 1 7.5 4H15"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 9.5l6 6 6-6"/></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M8.5 7H17v8.5"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20 14.2A8 8 0 0 1 9.8 4 8 8 0 1 0 20 14.2z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-neuron" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="3.2" fill="currentColor"/><path d="M9.8 9.8L6.4 6.4M14.3 10.1l3.5-3.1M12 15.2V19"/><circle cx="5.2" cy="5.2" r="1.7"/><circle cx="19.2" cy="5.8" r="1.7"/><circle cx="12" cy="20.5" r="1.7"/></g></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5.5 11.5L12 5l6.5 6.5"/></symbol>
+  </svg>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav__in">
+      <a class="brand" href="#about" aria-label="Vedanshi Mesvaniya, back to top">
+        <span class="brand__name">Vedanshi<span class="brand__dot">.</span></span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Primary">
+        <ul>
+          <li><a href="#about" data-spy="about">About</a></li>
+          <li><a href="#experience" data-spy="experience">Experience</a></li>
+          <li><a href="#projects" data-spy="projects">Projects</a></li>
+          <li><a href="#skills" data-spy="skills">Skills</a></li>
+          <li><a href="#education" data-spy="education">Education</a></li>
+          <li><a href="#certifications" data-spy="certifications">Certifications</a></li>
+          <li><a href="#contact" data-spy="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__tools">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="ico ico--sun" aria-hidden="true"><use href="#i-sun"/></svg>
+          <svg class="ico ico--moon" aria-hidden="true"><use href="#i-moon"/></svg>
+        </button>
+        <button class="icon-btn burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+          <svg class="ico ico--open" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="ico ico--shut" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ ABOUT / HERO ============ -->
+    <section class="hero" id="about" aria-labelledby="hero-name">
+
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="status"><span class="status__dot" aria-hidden="true"></span>Open to AI Engineer roles</p>
+
+          <h1 class="name" id="hero-name">
+            <span class="name__line"><span>Vedanshi</span></span>
+            <span class="name__line"><span>Mesvaniya</span></span>
+          </h1>
+
+          <p class="role">AI Engineer</p>
+
+          <p class="lede">
+            I build AI applications that answer questions from documents and databases, including a company assistant and a personal finance app with multi-LLM fallback. I'm looking for an AI Engineer role where I can build reliable, real-world AI solutions.
+          </p>
+
+          <div class="cta">
+            <a class="btn btn--primary" href="assets/docs/Vedanshi_Mesvaniya_Resume.pdf" download>
+              <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download CV
+            </a>
+            <a class="btn btn--ghost" href="#projects">See projects</a>
+          </div>
+
+          <ul class="social" aria-label="Find me online">
+            <li><a href="https://github.com/VedanshiMesvaniya" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><svg class="ico" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/in/vedanshi-mesvaniya-/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+            <li><a href="mailto:mesvaniya.vedanshi@gmail.com" aria-label="Send an email"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+            <li class="social__loc"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>Rajkot, Gujarat, India</li>
+          </ul>
+        </div>
+
+        <!-- The one memorable thing on the page: a working retrieval demo -->
+        <aside class="ask" id="ask" aria-labelledby="ask-title">
+          <header class="ask__head">
+            <span class="ask__avatar" aria-hidden="true"><svg class="ico"><use href="#i-neuron"/></svg></span>
+            <h2 class="ask__title" id="ask-title">Ask this portfolio</h2>
+          </header>
+
+          <div class="chat" id="chat" role="log" aria-live="polite" aria-relevant="additions">
+            <ul class="chat__start" id="chat-start">
+              <li><button type="button" data-q="What did Vedanshi build at Param Software?"><span>What did Vedanshi build at Param Software?</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></button></li>
+              <li><button type="button" data-q="Which vector databases does Vedanshi use?"><span>Which vector databases does Vedanshi use?</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></button></li>
+              <li><button type="button" data-q="I need a chatbot that answers from my company's PDFs. Can Vedanshi build it?"><span>I need a chatbot for my company's PDFs. Can Vedanshi build it?</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></button></li>
+              <li><button type="button" data-q="What is Vedanshi's education?"><span>What is Vedanshi's education?</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></button></li>
+            </ul>
+          </div>
+
+          <form class="chat__form" id="ask-form" autocomplete="off">
+            <label class="sr" for="ask-input">Your question</label>
+            <input class="chat__input" id="ask-input" name="q" type="text" maxlength="400" placeholder="Type your question">
+            <button class="chat__send" type="submit" aria-label="Send question"><svg class="ico" aria-hidden="true"><use href="#i-send"/></svg></button>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="sec" id="experience" aria-labelledby="experience-h">
+      <div class="wrap">
+        <header class="sec__head">
+          <h2 id="experience-h">Experience</h2>
+        </header>
+
+        <ol class="timeline" id="timeline">
+          <li class="tl reveal" id="exp-param" data-kind="Experience" data-source="Param Software" data-alias="param|param software" data-brief="develops Antarkosh, an assistant that combines enterprise document retrieval with natural-language access to relational business data">
+            <div class="tl__top">
+              <div>
+                <h3>AI &amp; Python Automation</h3>
+                <p class="tl__org">Param Software</p>
+              </div>
+              <p class="tl__date"><time datetime="2025-06">Jun 2025</time> to present</p>
+            </div>
+            <ul class="tl__list" data-kw="job work company employer role career current">
+              <li data-p>Developing Antarkosh, an AI assistant that combines enterprise document retrieval with natural-language access to relational business data.</li>
+              <li data-p>Building and improving the RAG pipeline with multiformat ingestion, OCR and table extraction, Qdrant hybrid search, embeddings, and reranking.</li>
+              <li data-p>Developing Text-to-SQL workflows for schema-aware query generation, dialect-specific SQL handling, and AST-based read-only query validation.</li>
+              <li data-p>Debugging and refining SQL + RAG retrieval for large schemas, ambiguous business terminology, query repair, and more grounded responses.</li>
+              <li data-p>Extending database connectivity across SQLite, MySQL, PostgreSQL, SQL Server, and Oracle; evaluating SQLAlchemy as a future unified connectivity layer.</li>
+            </ul>
+          </li>
+
+          <li class="tl reveal" id="exp-etech" data-kind="Experience" data-source="Etech Energy Consultancy" data-alias="etech|etech energy|internship|intern" data-brief="worked on an AI chatbot using RAG over a custom knowledge base, a prediction API integration and a basic intent detection system">
+            <div class="tl__top">
+              <div>
+                <h3>AI/ML Intern</h3>
+                <p class="tl__org">Etech Energy Consultancy Pvt. Ltd</p>
+              </div>
+              <p class="tl__date"><time datetime="2026-01">Jan 2026</time> to <time datetime="2026-05">May 2026</time></p>
+            </div>
+            <ul class="tl__list" data-kw="internship intern job work company employer role">
+              <li data-p>Worked on building an AI chatbot using Python and LLMs.</li>
+              <li data-p>Used RAG to fetch answers from a custom knowledge base.</li>
+              <li data-p>Integrated a prediction API to handle user queries in natural language.</li>
+              <li data-p>Assisted in creating a basic intent detection system for user queries.</li>
+              <li data-p>Improved chatbot responses by refining prompts and retrieval process.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="sec sec--tint" id="projects" aria-labelledby="projects-h">
+      <div class="wrap">
+        <header class="sec__head">
+          <h2 id="projects-h">Projects</h2>
+        </header>
+
+        <div class="projects" id="project-grid">
+          <article class="proj reveal" id="proj-antarkosh" data-kind="Project" data-source="Antarkosh" data-name="Antarkosh" data-alias="antarkosh|global mind|globalmind|enterprise assistant|company assistant" data-brief="a hybrid AI assistant that answers questions across enterprise documents and relational databases through a unified natural-language interface" data-kw="project assistant chat documents database rag text-to-sql enterprise param">
+            <h3>Antarkosh</h3>
+            <ul class="tags" aria-label="Technologies"><li>Python</li><li>FastAPI</li><li>React</li><li>Qdrant</li><li>sqlglot</li><li>LLMs</li><li>RAG</li><li>SQL</li></ul>
+            <ul class="proj__list">
+              <li data-p>Developed a hybrid AI assistant that answers questions across enterprise documents and relational databases through a unified natural-language interface.</li>
+              <li data-p>Built a multi-stage document ingestion pipeline for PDF and office files, including OCR, layout-aware and table extraction, embeddings, hybrid dense/sparse retrieval, and reranking.</li>
+              <li data-p>Developed a Text-to-SQL pipeline with semantic intent extraction, schema retrieval, business glossary and join context to generate database-aware read queries.</li>
+              <li data-p>Implemented AST-based SQL validation and read-only execution safeguards, with query repair and result formatting to handle invalid or unsafe generated queries.</li>
+              <li data-p>Added database connector and dialect handling for SQLite, MySQL, PostgreSQL, Microsoft SQL Server, and Oracle; SQLAlchemy-based unified connectivity is planned, not yet implemented.</li>
+            </ul>
+          </article>
+          <article class="proj reveal" id="proj-stash" data-kind="Project" data-source="Stash" data-name="Stash" data-alias="stash|finance app|personal finance" data-brief="an AI personal finance app that turns messages like “spent 50 on groceries yesterday” into structured income and expense entries" data-kw="project finance money expenses income budget app">
+            <h3>Stash: AI Personal Finance App</h3>
+            <ul class="tags" aria-label="Technologies"><li>Python</li><li>FastAPI</li><li>React</li><li>SQLAlchemy</li><li>PostgreSQL</li><li>SQLite</li><li>LLM APIs</li></ul>
+            <ul class="proj__list">
+            <li data-p>Built a full-stack AI finance app that converts natural-language inputs like “spent 50 on groceries yesterday” into structured income and expense entries.</li>
+            <li data-p>Developed a FastAPI backend with password hashing, signed session cookies, email verification, and strict per-user data isolation.</li>
+            <li data-p>Created a 6,000+ item glossary covering English, Hinglish, and Hindi merchants/items, with a learning system that remembers user-defined categories.</li>
+            <li data-p>Implemented multi-LLM fallback across 3 providers, retry queues, and offline support to prevent transaction loss during API or network failures.</li>
+            <li data-p>Built monthly reports, spending trends, budgets, recurring transactions, and CSV/Excel/PDF export functionality; deployed the application with PostgreSQL.</li>
+            </ul>
+          </article>
+          <article class="proj reveal" id="proj-vumax" data-kind="Project" data-source="AI Chatbot for VuMaxpro" data-name="AI Chatbot for VuMaxpro" data-alias="vumax|vumaxpro|drilling chatbot|geology chatbot" data-brief="a chatbot for geological and drilling information retrieval, plus LightGBM models for ROP prediction" data-kw="project chatbot geology geological drilling rop rate of penetration">
+            <h3>AI Chatbot for VuMaxpro</h3>
+            <ul class="tags" aria-label="Technologies"><li>Python</li><li>RAG</li><li>FAISS</li><li>Sentence Transformers</li><li>LightGBM</li><li>Pandas</li><li>NumPy</li><li>Scikit-learn</li><li>PDFPlumber</li></ul>
+            <ul class="proj__list">
+            <li data-p>Contributed to the development of an AI-powered chatbot for geological and drilling information retrieval.</li>
+            <li data-p>Worked on RAG pipelines including document ingestion, semantic search, vector indexing, and knowledge retrieval from technical documents.</li>
+            <li data-p>Developed PDF and table extraction workflows for geological and drilling reports.</li>
+            <li data-p>Implemented semantic retrieval using FAISS and Sentence Transformers embeddings.</li>
+            <li data-p>Built LightGBM models for ROP prediction and drilling parameter optimization.</li>
+            </ul>
+          </article>
+          <article class="proj reveal" id="proj-sales" data-kind="Project" data-source="Sales Performance Dashboard" data-name="Sales Performance Dashboard" data-alias="sales|dashboard|power bi dashboard" data-brief="a Power BI dashboard project built on 10,000+ cleaned retail sales records" data-kw="project dashboard analytics bi business intelligence sales analysis">
+            <h3>Sales Performance Dashboard</h3>
+            <ul class="tags" aria-label="Technologies"><li>Excel</li><li>SQL</li><li>Power BI</li><li>Python</li></ul>
+            <ul class="proj__list">
+            <li data-p>Cleaned and analysed 10,000+ retail sales records using Excel and Python to ensure data accuracy and consistency.</li>
+            <li data-p>Performed SQL-based analysis to calculate key business metrics including total revenue, average order value, and region-wise performance.</li>
+            <li data-p>Identified top-performing products and high-revenue regions to support business insights.</li>
+            <li data-p>Built interactive Power BI dashboards to visualize monthly trends, regional sales, and product performance.</li>
+            <li data-p>Highlighted 12–15% revenue growth during peak months, enabling better sales planning and decision-making.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="sec" id="skills" aria-labelledby="skills-h">
+      <div class="wrap">
+        <header class="sec__head">
+          <h2 id="skills-h">Skills</h2>
+        </header>
+
+        <div class="skills">
+          <div class="skill reveal" data-p data-kind="Skills" data-source="Programming &amp; tools" data-kw="skills programming languages backend api code tools">
+            <div class="skill__label">
+              <h3>Programming &amp; tools</h3>
+            </div>
+            <ul class="chips">
+              <li>Python</li><li>SQL</li><li>Excel</li><li>FastAPI</li><li>REST APIs</li><li>Git</li>
+            </ul>
+          </div>
+
+          <div class="skill reveal" data-p data-kind="Skills" data-source="AI &amp; machine learning" data-kw="skills tools technologies vector database vector store embeddings model machine learning ai llm">
+            <div class="skill__label">
+              <h3>AI &amp; machine learning</h3>
+            </div>
+            <ul class="chips">
+              <li>LLMs</li><li>RAG</li><li>Text-to-SQL</li><li>Prompt engineering</li><li>Semantic search</li><li>Vector Database</li><li>FAISS</li><li>Qdrant</li><li>Sentence Transformers</li><li>LightGBM</li><li>Multi-LLM API integration</li>
+            </ul>
+          </div>
+
+          <div class="skill reveal" data-p data-kind="Skills" data-source="Databases &amp; backend" data-kw="skills databases storage sql dialects connectors">
+            <div class="skill__label">
+              <h3>Databases &amp; backend</h3>
+            </div>
+            <ul class="chips">
+              <li>PostgreSQL</li><li>SQLite</li><li>SQL dialects</li><li>Database connectors</li>
+            </ul>
+          </div>
+
+          <div class="skill reveal" data-p data-kind="Skills" data-source="Data analysis" data-kw="skills data analysis analytics pandas cleaning">
+            <div class="skill__label">
+              <h3>Data analysis</h3>
+            </div>
+            <ul class="chips">
+              <li>Pandas</li><li>NumPy</li><li>Data cleaning</li><li>EDA</li>
+            </ul>
+          </div>
+
+          <div class="skill reveal" data-p data-kind="Skills" data-source="Visualization" data-kw="skills visualization charts dashboards bi">
+            <div class="skill__label">
+              <h3>Visualization</h3>
+            </div>
+            <ul class="chips">
+              <li>Power BI</li><li>Matplotlib</li><li>Excel charts</li>
+            </ul>
+          </div>
+
+          <div class="skill reveal" data-p data-kind="Skills" data-source="Concepts" data-kw="skills concepts statistics theory">
+            <div class="skill__label">
+              <h3>Concepts</h3>
+            </div>
+            <ul class="chips">
+              <li>Statistics</li><li>Hypothesis testing</li><li>Data interpretation</li>
+            </ul>
+          </div>
+
+          <div class="skill reveal" data-p data-kind="Skills" data-source="Frontend (basic)" data-kw="skills frontend front-end ui web interface">
+            <div class="skill__label">
+              <h3>Frontend (basic)</h3>
+            </div>
+            <ul class="chips">
+              <li>React</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION & CERTIFICATIONS ============ -->
+    <section class="sec sec--tint" id="education" aria-labelledby="education-h">
+      <div class="wrap">
+        <header class="sec__head">
+          <h2 id="education-h">Education</h2>
+        </header>
+        <ul class="pair">
+          <li class="pair__item reveal" id="edu-mca" data-p data-kind="Education" data-source="Atmiya University" data-alias="mca|master|masters|postgraduate|atmiya" data-kw="education degree university college studied graduated marks percentage grade distinction">
+            <p class="pair__date">Graduated 2026</p>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p class="pair__org">Atmiya University, Rajkot</p>
+            <p class="pair__meta">First Distinction, aggregate 91.72%</p>
+          </li>
+          <li class="pair__item reveal" id="edu-bca" data-p data-kind="Education" data-source="Saurashtra University" data-alias="bca|bachelor|bachelors|undergraduate|saurashtra" data-kw="education degree university college studied graduated marks percentage grade distinction">
+            <p class="pair__date">Graduated 2024</p>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="pair__org">Saurashtra University, Rajkot</p>
+            <p class="pair__meta">First Distinction, aggregate 72.63%</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="sec" id="certifications" aria-labelledby="certifications-h">
+      <div class="wrap">
+        <header class="sec__head">
+          <h2 id="certifications-h">Certifications</h2>
+        </header>
+        <ul class="pair">
+          <li class="pair__item reveal" id="cert-excel" data-p data-kind="Certification" data-source="Microsoft Excel Associate" data-alias="excel" data-kw="certification certificate certified credential course">
+            <p class="pair__date">2025</p>
+            <h3>Microsoft Excel Associate</h3>
+          </li>
+          <li class="pair__item reveal" id="cert-docker" data-p data-kind="Certification" data-source="Docker 101" data-alias="docker" data-kw="certification certificate certified credential course containers">
+            <p class="pair__date">2024</p>
+            <h3>Docker 101</h3>
+            <p class="pair__org">Colaculam</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="sec sec--tint" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <div class="contact">
+          <div class="contact__copy">
+            <h2 id="contact-h">Contact</h2>
+            <div class="cta">
+              <a class="btn btn--primary" href="mailto:mesvaniya.vedanshi@gmail.com">
+                <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>Email me
+              </a>
+              <button class="btn btn--ghost" type="button" id="copy-email" data-email="mesvaniya.vedanshi@gmail.com">
+                <svg class="ico" aria-hidden="true"><use href="#i-copy"/></svg>Copy email
+              </button>
+            </div>
+          </div>
+
+          <ul class="contact__list" id="contact-list">
+            <li><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:mesvaniya.vedanshi@gmail.com">mesvaniya.vedanshi@gmail.com</a></li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+918799499547">+91 87994 99547</a></li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg><a href="https://www.linkedin.com/in/vedanshi-mesvaniya-/" target="_blank" rel="noopener noreferrer">linkedin.com/in/vedanshi-mesvaniya-</a></li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-github"/></svg><a href="https://github.com/VedanshiMesvaniya" target="_blank" rel="noopener noreferrer">github.com/VedanshiMesvaniya</a></li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg><span>Rajkot, Gujarat, India</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <p>&copy; <span id="year">2026</span> Vedanshi Mesvaniya</p>
+      <a href="#about">Back to top</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lightbox__backdrop"></div>
+    <div class="lightbox__card" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" tabindex="-1">
+      <div class="lightbox__body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
