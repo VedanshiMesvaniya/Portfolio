@@ -50,7 +50,7 @@ await test('calls Groq with the right model, key and settings', async () => {
   assert.equal(sent.url, 'https://api.groq.com/openai/v1/chat/completions');
   assert.equal(sent.init.headers.Authorization, 'Bearer test-key');
   assert.equal(sent.body.model, 'openai/gpt-oss-20b');
-  assert.equal(sent.body.reasoning_effort, 'low');
+  assert.equal(sent.body.reasoning_effort, 'medium');
   assert.equal(sent.body.include_reasoning, false);
   assert.ok(sent.body.max_completion_tokens >= 600);
   assert.equal(r.headers.get('Access-Control-Allow-Origin'), ORIGIN);

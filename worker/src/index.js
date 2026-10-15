@@ -95,8 +95,8 @@ export default {
           model: env.GROQ_MODEL || DEFAULT_MODEL,
           messages: buildMessages(question, body.history),
           temperature: 0.3,
-          max_completion_tokens: 900,      // gpt-oss spends some of this on reasoning
-          reasoning_effort: 'low',         // fastest setting, plenty for lookups
+          max_completion_tokens: 1600,
+          reasoning_effort: 'medium',
           include_reasoning: false,        // return only the answer
           stream: false,
         }),
