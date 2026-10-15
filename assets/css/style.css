@@ -398,7 +398,7 @@ p { text-wrap: pretty; }
 .tl__top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .3rem 1.5rem; }
 .tl h3 { font-size: clamp(1.25rem, 2.4vw, 1.55rem); font-weight: 680; letter-spacing: -.01em; }
 .tl__org { color: var(--accent); font-weight: 650; }
-.tl__date { color: var(--muted); font-size: .95rem; font-variant-numeric: tabular-nums; }
+.tl__date { color: var(--muted); font-size: .95rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .tl__list { margin-top: 1rem; display: grid; gap: .55rem; }
 .tl__list li { position: relative; padding-left: 1.2rem; max-width: 66ch; }
 .tl__list li::before { content: ""; position: absolute; left: 0; top: .72em; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); opacity: .55; }
